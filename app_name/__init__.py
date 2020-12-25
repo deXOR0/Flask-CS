@@ -4,7 +4,7 @@ from flask_bcrypt import Bcrypt #Hashing and CSRF token
 from flask_login import LoginManager #Login Manager
 
 app = Flask(__name__)
-app.config['SECRET KEY'] = ''
+app.config['SECRET_KEY'] = ''
 app.config['SQLALCHEMY_DATABASE_URI'] = ''
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
