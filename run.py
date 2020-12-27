@@ -1,4 +1,4 @@
-from app_name import app
+from app_name import app, manager
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    manager.run()

@@ -14,6 +14,8 @@ I have included some essential modules such as
 - WTForms
 - Flask-Login
 - email-validator
+- Flask-Migrate
+- Flask-Script
 
 In addition, this template is also equipped with Bootstrap 5
 
@@ -39,7 +41,7 @@ I also structured the template so that everything is laid out nicely. The inspir
     ```
 - Start the project with this command
     ```
-    python run.py
+    python run.py runserver --debug
     ```
 
 ## Prerequisites
